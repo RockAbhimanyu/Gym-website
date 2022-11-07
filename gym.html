@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Fitness</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/img2.jpg');
+        font-family: cursive;
+    }
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+    }
+    .left img{
+        width: 120px;
+        height: 100px;
+        filter: invert(8000000000%);
+
+    }
+    .left div{
+        text-align: center;
+        line-height: 21px;
+    font-size: 17px;
+
+    }
+    .right{
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 23px;
+        top: 20px;
+        display: inline-block;
+    }
+    .mid{
+        /* border: 2px solid yellow; */
+        display: block;
+        width: 50%;
+        margin: 12px auto;
+
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+       display: inline-block;
+       font-size: 25px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+
+    }
+    .btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: cursive;
+
+    }
+    .btn:hover{
+        background-color: rgb(31,30,30);
+    }
+    .container{
+    border: 2px solid white;
+    margin: 171px 47px;
+    padding: 92px 66px;
+    width: 35%;
+    border-radius: 42px;
+    }
+    .formgroup input{
+        text-align: center;
+    display: block;
+    width: 295px;
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 9px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        text-align: center;
+    width: 59%;
+    margin: 7px 107px;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+       <img src="img/img3.jpg" alt="">
+       <div>Hacker Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+               </ul>
+        </div>
+        <div class="right">
+        <button class="btn">Call Us Now</button><button class="btn">Email Us</button><button class="btn">Sign In</button>
+        </div>
+
+    </header>
+    <div class="container">
+    <h1>Join The Best GYM of India Now</h1>
+    <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="enter your Name">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="enter your Age">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="enter your Gender">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="enter your Locality">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="enter your Mobile number">
+
+        </div>
+        <button class="btn">Submit</button>
+    </form>    
+    </div>
+    
+</body>
+</html>
